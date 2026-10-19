@@ -7,7 +7,7 @@ A console-based Bank Management System using Python and MySQL to manage customer
 
 A console-based banking application developed using **Python and MySQL** to manage customer information, bank accounts, and financial transactions.
 
-## 📌Project Overview
+## Project Overview
 
 The Basic Bank Management System is a beginner-friendly database project that demonstrates how Python connects with MySQL to perform banking operations and manage structured data efficiently.
 
@@ -68,61 +68,6 @@ Basic-Bank-Management-System/
 └── README.md
 ```
 
-*Adjust the filenames to match your actual project.*
-
-## ⚙️ Installation and Setup
-
-### 1. Clone the repository
-
-```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
-cd Basic-Bank-Management-System
-```
-
-### 2. Create a virtual environment
-
-```bash
-python -m venv .venv
-```
-
-Activate it on Windows:
-
-```powershell
-.venv\Scripts\activate
-```
-
-### 3. Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### 4. Configure MySQL
-
-- Open MySQL Workbench.
-- Create or select the `bank_management` database.
-- Execute the SQL script provided in the `database` folder.
-- Configure your database connection settings in the Python application.
-
-**Security:** Keep database passwords in environment variables or a local configuration file excluded from Git. Never publish real credentials.
-
-### 5. Run the application
-
-```bash
-python main.py
-```
-
-##  Screenshots
-
-Add screenshots of your running Python application and MySQL database here.
-
-### Application Output
-
-![Bank Management System Application](screenshots/application.png)
-
-### MySQL Database
-
-![Bank Management System Database](screenshots/database.png)
 
 ##  Skills Demonstrated
 
